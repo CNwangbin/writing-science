@@ -1,0 +1,8 @@
+# eval run outputs
+evals/results/
+*-workspace/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

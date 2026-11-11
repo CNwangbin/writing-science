@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: zh-prompt-intro-polish
+expected_outcome: |
+  A Chinese-language explanation with a revised English introduction. Even though the user
+  only asked to polish, the response flags the structural problems: textbook opening, a
+  literature list with researchers as subjects, a vague "little is known" gap, objectives
+  with no stated question, and the methods-comparison goal placed before the main question.
+  The revision states a concrete knowledge gap and a "to learn X, we did Y" challenge with
+  the main goal first, turns "conducted an investigation of" into a verb, and asks the
+  author for anything it cannot know (such as the real question) instead of inventing it.

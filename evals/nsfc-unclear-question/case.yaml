@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: nsfc-unclear-question
+expected_outcome: |
+  A Chinese response with a revised Chinese paragraph. It diagnoses that the paragraph
+  sells the method (graph neural networks) before defining the soil problem, that
+  "研究较少" is a vague gap, that there is no explicit scientific question, and that
+  "具有十分重要的科学意义和广阔的应用前景" is empty. The revision opens with the soil
+  carbon problem, states a concrete unknown about how aggregate pore structure controls
+  organic carbon stability, poses it as a scientific question, and only then introduces
+  the method as the way to answer it. It asks the author for specifics it cannot know
+  rather than inventing data.

@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: grammar-only-restraint
+expected_outcome: |
+  A Chinese response that corrects only the grammar errors (was -> were, plateau ->
+  plateaus, explain -> explained or explains, suggest -> suggests, outweighs -> outweigh)
+  and leaves the wording, sentence order, numbers, and structure untouched. The paragraph
+  is already well built (lead-first result, effect size with p-value, caveat in the middle),
+  so the response does not restructure it or rewrite sentences, and at most adds a brief
+  closing note. It does not run a full diagnosis table for a grammar-only request.

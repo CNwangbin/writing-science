@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: weak-discussion-ending
+expected_outcome: |
+  An English response with a revised concluding paragraph. It identifies that the ending
+  undermines itself ("more research is needed" and the single-site limitation in the final
+  position), that "new insights" is never said, that the Phragmites idea is new material
+  that does not belong at the end, and that "significantly increased (p < 0.05)" and
+  "dramatically altered the structure and function" hide the effect size. The revision uses
+  "but, yes" ordering (limitation first, finding last), states the actual insight, ends on
+  the contribution to the larger problem, and uses bracketed placeholders for numbers it
+  does not have (such as the size of the increase) instead of inventing them.
