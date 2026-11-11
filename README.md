@@ -18,7 +18,7 @@ When you ask Claude Code to polish, revise, condense, or review a scientific tex
 Clone into your personal skills folder:
 
 ```bash
-git clone <this-repo-url> ~/.claude/skills/writing-science
+git clone https://github.com/CNwangbin/writing-science.git ~/.claude/skills/writing-science
 ```
 
 Claude Code loads it automatically; check with `/skills`.
