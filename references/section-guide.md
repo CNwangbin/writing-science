@@ -8,6 +8,7 @@ Checklists for diagnosing each part of a paper or proposal. Each item points to 
 - Introduction
 - Methods
 - Results
+- Section headings and figure titles
 - Discussion and conclusion
 - Grant proposals (general; NSF/NIH-style)
 - NSFC (国家自然科学基金) proposals
@@ -24,7 +25,7 @@ The abstract is a whole paper in miniature: one or two sentences each for O, C, 
 - Are results concrete, with effect sizes and key numbers, not "significantly affected"? (§8)
 - Does the last sentence give the conclusion and its contribution to the opening problem, not "these results provide insights into…" or "further research is needed"? (§9)
 - Is the width consistent? Don't open on global climate if the conclusion is about primer efficiency. (§5)
-- Title: does it carry the main finding or question, in words a broad reader can parse?
+- Title: does it carry the main finding or question, in words a broad reader can parse? (See "Section headings and figure titles".)
 
 ## Introduction
 
@@ -52,6 +53,28 @@ The abstract is a whole paper in miniature: one or two sentences each for O, C, 
 - Is the data shown only the data needed for the story? (§8)
 - In combined Results/Discussion: do data come before the inferences drawn from them, with signal words ("indicating", "demonstrates")? (§8)
 - Sentences: are the key numbers in the stress position? (§12)
+- Does each subsection end on what was found, or on a sentence that only restates the heading ("provides a framework for…", "为……提供了定量尺度")? The last sentence is the subsection's resolution. (§9, §10)
+- Does the subject of each claim match the comparison actually made? "Adding root data improves X" needs a model trained without root data; a comparison against other methods only supports "the model outperforms…". (§3, Credible)
+- Is a term or measure used before the subsection that defines it? (§10, §12)
+
+## Section headings and figure titles
+
+The book treats subheads as signals that mark story arcs (§10) and asks the reader to name the theme of each arc; it gives no separate rules for headings. This checklist applies its principles to them. A heading is the opening of its arc and sits in a power position, so readers take it as the point of the section.
+
+**The skim test.** Read only the headings of the Results, in order. Do they tell the story, and do they answer the questions the Introduction posed, one by one? If the Introduction asks three questions and the headings answer none of them recognizably, the headings are labels. (§4, §7)
+
+- **One heading, one claim.** A heading joined by "and" / "while" / "而" / "并" usually holds two arcs. Either the section should be split, or one half is supporting material and can leave the heading. Length is a symptom: cut the second claim before trimming words. (§10)
+- **Claim, not label.** "Cross-site yield prediction" names the analysis; "Root traits improve yield prediction at unseen sites" states the finding. Declarative headings suit Results; label headings are fine for setup material (data, definitions, study design) and where the journal requires them. (§8, LD)
+- **The verb carries the finding.** Fuzzy verbs make a heading sound like a claim without making one: capture, reflect, reveal, define, support, link, characterize, 捕获、反映、揭示、定义、支持、关联、刻画. Ask what was observed and use that verb (predict, shift with, exceed, covary with, fall as). "X defines Y" is a definition, not a result. (§14)
+- **Nature as the subject.** "Field surveys support…" makes the dataset the character; the organism, process, or model property should be. (§6, §12)
+- **No lists.** "…is associated with A, B, and C" reports that analyses were run. Name the one conclusion they add up to, usually stated somewhere in the section's own text. (§3, Simple)
+- **Strength matches evidence.** A heading is read without the caveats below it. Don't put a weak effect (r ≈ 0.1) or a result from one cohort in the heading's stress position as if it were general. (§8)
+- **Reader's schemas.** No middle-rung jargon or undefined abbreviations the target reader lacks; a heading is often read before the term is defined. (§3, §15)
+- **Consistent terms.** The same thing has the same name in every heading, in the text, and in the figure titles ("root morphology" vs. "root architecture" reads as two things). (SKILL Step 3)
+- **Figure titles** follow the same rules and should agree with the heading of the section that discusses the figure. Panel descriptions say what is shown; the figure title says what it shows.
+- **Paper title:** the main finding or question in words a broad reader can parse; same tests as above.
+
+When reviewing headings, give for each: the current heading, what is wrong, and a replacement, then check the replacements together with the skim test. If the right heading depends on a number or direction the text does not give, say so and leave a placeholder.
 
 ## Discussion and conclusion
 

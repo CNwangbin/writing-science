@@ -32,4 +32,4 @@ Claude Code loads it automatically; check with `/skills`.
 | `references/section-guide.md` | Checklists for each section of a paper, grant proposals, and NSFC applications |
 | `evals/` | Test cases in the `claude plugin eval` format |
 
-The reference files paraphrase the book's principles; the examples are newly written. The abstract checklist, the NSFC section mapping, and the Chinese-language notes are extensions of the book's framework, not part of the book.
+The reference files paraphrase the book's principles; the examples are newly written. The abstract checklist, the checklist for section headings and figure titles, the NSFC section mapping, and the Chinese-language notes are extensions of the book's framework, not part of the book.

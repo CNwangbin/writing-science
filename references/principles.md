@@ -74,6 +74,8 @@ Four elements underlie every story: **Opening** (problem, characters, setting), 
 
 **Readers look for O, C, and R at their expected positions** and take whatever is there as the opening, the challenge, and the conclusion. Wrong content in those positions sends the wrong message.
 
+**Diagnostic (the O–C–R skim):** read only the opening, the challenge, and the resolution. A reader should get the problem, the question, the approach, and the conclusion from those alone. The same test works one level down: first sentences of paragraphs, or section headings read in sequence.
+
 ## 5. The opening
 
 The opening (first sentence to first paragraph or more) must: **identify the problem, introduce the characters, and target the audience.** Good openings can also foreshadow the challenge.
@@ -164,6 +166,9 @@ The ending is a power position: readers take whatever is there as the take-home 
 
 - **Point-first** (most paragraphs; TS-D should dominate): the topic sentence makes the point, the rest develops it. A reader skimming first sentences should get the paper's essence. Extended LD: a lead of two or three sentences.
 - **Point-last** (about a quarter of paragraphs, typically at openings, resolutions, and transitions): LDR (strong at both ends) or OCAR (the opening sets the question; the last sentence concludes).
+- **Length and structure:** short paragraphs are usually TS-D. Long paragraphs need a resolution to remind the reader of the point, so they lean LDR or OCAR.
+- The structures form a spectrum, and a paragraph may be hard to classify. That is fine as long as the point is findable: point-first and point-last both work, **point-nowhere** does not.
+- **Over-condensed paragraphs (the curse of knowledge):** an author who knows the material too well packs several ideas into a few cryptic sentences, and connections that are obvious to the author are invisible to the reader. The fix makes the text longer: separate the ideas and add the missing explanation. Take the space needed to frame critical ideas, and condense elsewhere.
 - **Bad paragraphs:** several threads woven together with no visible point; an incidental character introduced as if central. Fix: (1) identify the real story, (2) choose point-first or point-last, (3) separate the threads, possibly into two paragraphs.
 
 ## 12. Sentences: topic, stress, subject–verb
@@ -185,7 +190,7 @@ The ending is a power position: readers take whatever is there as the take-home 
 
 - **Two sources of flow:** thematic coherence (all sentences on the same team) and linkage (each sentence passes a baton).
 - **The Janus topic:** a good topic looks backward (familiar information) and forward (what this sentence is about).
-- **Topic-to-topic = list; stress-to-topic = story.** "Molecules… Molecules… Molecules…" reads as a list. "…covalently bonded atoms. Bond strength controls… Those reactions…" reads as a story. Short lists under a clear lead are fine.
+- **Topic-to-topic = list; stress-to-topic = story.** "Molecules… Molecules… Molecules…" reads as a list. "…covalently bonded atoms. Bond strength controls… Those reactions…" reads as a story. Short lists under a clear lead are fine. **Stress-to-stress = confused readers:** two sentences or paragraphs that end on the same idea but open on unrelated ones are related, yet the reader can't see how until the end. Reorder one so that the shared idea opens it.
 - Link by repeating a word or, more often, an idea ("bonded atoms" → "bond strength").
 - **Linking paragraphs:** open a new paragraph by picking up the resolution of the previous one ("…alter particle aggregation. / Aggregation of nano-TiO₂ particles…").
 - **Fix structure before flow.** If sentence 2 breaks the chain between sentences 1 and 3, sentence 2 probably belongs to another arc; move it. Forcing a local link just pushes the break down the paragraph.
@@ -234,6 +239,8 @@ Formatting tricks (smaller font, crammed figures) are not condensing.
 - **Verbs:** converting nominalizations to verbs shortens almost every sentence.
 
 **Don't kill every word.** Words that build flow and coherence are working. "Writing can get too barren. Filler can add flow. Use it carefully." is shorter and worse.
+
+**Under-loaded text is harder to fix than over-loaded text.** Trimming needs only the page; filling gaps needs knowledge that is in the author's head. So when condensing someone else's text, stop before it turns cryptic, and when a passage is already cryptic, ask the author for the missing step instead of guessing it. A draft going to coauthors can be slightly long.
 
 ## 17. Limitations: "but, yes"
 

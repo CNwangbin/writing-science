@@ -1,6 +1,6 @@
 ---
 name: writing-science
-description: Revise, polish, restructure, condense, or critique scientific writing — journal papers and their sections (abstract, introduction, methods, results, discussion, conclusion), grant proposals (NSF, NIH, ERC, 国自然/NSFC 申请书, 立项依据, 科学问题), theses, and plain-language summaries — by applying Joshua Schimel's "Writing Science" (OCAR story structure, knowledge gaps, topic and stress positions, flow, strong verbs, jargon control, condensing, top-down SCFL editing). Use whenever the user asks to 修改、润色、改写、精简、压缩字数、审阅、提意见、中译英并润色, or to polish, edit, tighten, rewrite, or review any scientific or academic text, in Chinese or English, even if they just paste a paragraph and say "帮我改一下" or "make this read better". Also use for questions about framing a research question or hypothesis, opening or ending a paper, writing about limitations, or explaining research to non-specialists.
+description: Revise, polish, restructure, condense, or critique scientific writing — journal papers and their sections (abstract, introduction, methods, results, discussion, conclusion, titles, section headings 小标题, figure titles 图题), grant proposals (NSF, NIH, ERC, 国自然/NSFC 申请书, 立项依据, 科学问题), theses, and plain-language summaries — by applying Joshua Schimel's "Writing Science" (OCAR story structure, knowledge gaps, topic and stress positions, flow, strong verbs, jargon control, condensing, top-down SCFL editing). Use whenever the user asks to 修改、润色、改写、精简、压缩字数、审阅、提意见、中译英并润色, or to polish, edit, tighten, rewrite, or review any scientific or academic text, in Chinese or English, even if they just paste a paragraph and say "帮我改一下" or "make this read better". Also use for questions about framing a research question or hypothesis, opening or ending a paper, writing about limitations, or explaining research to non-specialists.
 ---
 
 # Writing Science: revising papers and proposals
@@ -12,7 +12,7 @@ Revise top-down. A polished sentence inside a paragraph that should be deleted i
 ## Reference files
 
 - `references/principles.md`: the principles with diagnostic tests and fix patterns, in 18 numbered sections with a table of contents. Read the sections that match the problems you see.
-- `references/section-guide.md`: checklists for abstracts, introductions, methods, results, discussions, proposals, and NSFC applications. Read the part for the section you were given before diagnosing it.
+- `references/section-guide.md`: checklists for abstracts, introductions, methods, results, section headings and figure titles, discussions, proposals, and NSFC applications. Read the part for the section you were given before diagnosing it.
 
 For a one- or two-sentence fix, the "common high-value fixes" list at the end of this file is usually enough. For a paragraph or more, read the relevant reference sections first: the fix patterns there are more specific than this overview.
 
@@ -40,13 +40,18 @@ Work out three things before touching the text. Infer them when you can and stat
 | 修改 / 改写 / revise / "why is this weak" | Full top-down pass, structure included. |
 | 精简 / 压缩到 N 字 / cut to N words | Condense in the order given in principles §16 (cut blocks, repair arcs, then words). Report word counts before and after. If the target can't be reached without losing content, say what would have to go and let the author choose. |
 | 审阅 / 提意见 / review / feedback | Diagnose only: prioritized problems, each with one short example of the fix. Don't rewrite the whole text unless asked. |
+| 标题太长 / 标题没提炼出重点 / fix my headings or title | Read the sections under the headings first: a heading can only be judged against what its section shows. Follow "Section headings and figure titles" in the section guide. Give current → problem → replacement for each, then check the set with the skim test. |
 | 中译英 / translate and polish | Don't translate sentence by sentence. Work out the story (O, C, A, R) of the Chinese text, then write English that follows English topic–stress order. Chinese drafts often put background and qualifiers first and the point last in long sentences; split them and bring the subject and verb forward. |
+
+**When the author names a specific concern** ("the headings are too long", "the ending feels flat"), answer that first and in the most depth. Treat it as a symptom to explain, not only a surface to fix: long headings usually mean two claims in one section, a flat ending usually means the insight was never stated. Report other problems you find briefly afterwards, and lead with those that caused the named one.
+
+**Confirm which text is meant** when the request names a file or section and more than one candidate exists (drafts, versions, a notes file beside the manuscript). Reviewing the wrong one wastes the whole pass.
 
 ## Step 2: Diagnose top-down with SCFL
 
 Go through the four levels in order. Note problems at each level before rewriting, because the fixes interact.
 
-1. **Structure.** Can you name the opening problem, the specific question (challenge), the action, and the resolution? Is the question stated as a question ("to learn X, we did Y"), or only as data-collection objectives? Does the resolution answer the question and return to the problem the opening raised, at the same width? Does each section, subsection, and paragraph form one complete arc, or does an idea appear, vanish, and come back?
+1. **Structure.** Can you name the opening problem, the specific question (challenge), the action, and the resolution? Is the question stated as a question ("to learn X, we did Y"), or only as data-collection objectives? Does the resolution answer the question and return to the problem the opening raised, at the same width? Does each section, subsection, and paragraph form one complete arc, or does an idea appear, vanish, and come back? Read in sequence, do the section headings alone tell the story and answer the questions the Introduction posed?
 2. **Clarity.** Is each claim concrete (numbers, named mechanisms, specific gaps) rather than fuzzy ("little is known", "plays an important role", "affects")? Are actions carried by verbs, or buried in nominalizations and fuzzy verbs? Does this audience hold the schema behind each technical term?
 3. **Flow.** Does each sentence's topic pick up something already introduced (often the previous sentence's stress)? Does each paragraph's opening connect to the previous paragraph's resolution? Do all sentences in a paragraph serve one theme?
 4. **Language.** Filler, redundancy, obvious statements, empty amplifiers, metadiscourse, long Latinate words where short ones work, prepositional chains, noun trains. Would it survive being read aloud?
@@ -69,6 +74,8 @@ Then loop: tightening the language often exposes a new structural option (for ex
 - Leave markup intact: LaTeX commands, `\cite{}` and `\ref{}` keys, labels, equations, figure and table environments, Markdown syntax. Edit the prose around them.
 - Don't overwrite the author's file unless they ask for in-place edits. Write the revision to a new file next to it (for example `intro_revised.tex`) or show the revised passages in the reply, so they can compare.
 - For .docx, use the docx skill if it is available, with tracked changes when the author wants to review edits one by one.
+- Parallel-language files (a Chinese draft with its English translation beside it, or the reverse): a change to one version must be made in the other, including headings and figure titles. Propose both forms together and say so if you changed only one.
+- Long files: read the whole section under review, not just the part that fits in one read. Findings from a partial read should be labelled as partial.
 
 **Before returning the revision, check it against the original:** every number, citation, and claim is still there (or its removal is listed); no claim got stronger than the evidence; the last sentence of each paragraph ends on its point; you added no facts.
 
@@ -112,3 +119,5 @@ Check for these first; together they cover most weak drafts. Section numbers ref
 12. **Fuzzy hypotheses.** (§14) "X is controlled by A, B, and C" is a truism. Make it falsifiable: "A is the strongest control on X".
 13. **Filler.** (§16) "In this study, we found that", "It is worth noting that", "There is evidence that", "very / highly / dramatically", "structural and functional changes". Cut words that add no content, clarity, or flow.
 14. **Broken links.** (§13) A sentence whose topic connects to nothing before it. Check whether it belongs in this paragraph at all before forcing a transition.
+15. **Headings that label or list.** (section guide, "Section headings and figure titles") "X and Y analysis", "A encodes B while C captures D", "…reveals/defines/is linked to A, B, and C". One heading, one claim, with a verb that says what was found; two claims usually mean two sections.
+16. **Over-condensed text.** (§11, §16) Cryptic, jumbled sentences from an author who knows too much and wrote too little. Don't polish; separate the ideas and ask for the missing step.
